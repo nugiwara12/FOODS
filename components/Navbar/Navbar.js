@@ -4,6 +4,7 @@ import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { CiSearch } from "react-icons/ci";
 import Link from "next/link";
+import Image from "next/image";
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -32,8 +33,10 @@ const Navbar = () => {
           <div className="flex items-center">
             <div className="flex-shrink-0">
               <Link href="/">
-                <img
+                <Image
                   className="h-8 w-8 rounded-lg"
+                  width={8}
+                  height={8}
                   src="/images/logo/food-logo.png"
                   alt="Logo"
                 />

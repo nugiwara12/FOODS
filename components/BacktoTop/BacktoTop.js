@@ -22,7 +22,7 @@ const BackTop = () => {
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  }, []);
+  }, [showScrollButton]); // Include showScrollButton in the dependency array
 
   const scrollToTop = () => {
     if (typeof window === "undefined") {

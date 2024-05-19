@@ -1,6 +1,7 @@
 import React from "react";
 import { FaCircle } from "react-icons/fa";
 import Carousel from "../../../components/Carousel/Carousel";
+import Image from "next/image";
 
 const slides = [
   {
@@ -67,9 +68,11 @@ const CarouselPage = () => {
           {slides.map((item, index) => (
             <div key={index} className="relative">
               <div className="flex justify-center items-center">
-                <img
+                <Image
                   src={item.image}
                   alt={`Image ${index}`}
+                  width={100}
+                  height={100}
                   className="flex justify-center items-center w-40 h-40 rounded-full object-cover mb-10"
                 />
               </div>

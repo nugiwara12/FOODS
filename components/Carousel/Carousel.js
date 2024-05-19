@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
 export default function Carousel({
@@ -19,7 +19,7 @@ export default function Carousel({
     if (!autoSlide) return;
     const slideInterval = setInterval(next, autoSlideInterval);
     return () => clearInterval(slideInterval);
-  }, []);
+  }, [autoSlide, autoSlideInterval, next]); // Include autoSlide, autoSlideInterval, and next in the dependency array
 
   // Add a null check for slides
   if (!slides || !Array.isArray(slides) || slides.length === 0) {
