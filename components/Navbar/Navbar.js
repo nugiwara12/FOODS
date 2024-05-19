@@ -31,7 +31,13 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <div className="flex-shrink-0">
-              <img className="h-8 w-8" src="/images/egg.png" alt="Logo" />
+              <Link href="/">
+                <img
+                  className="h-8 w-8 rounded-lg"
+                  src="/images/logo/food-logo.png"
+                  alt="Logo"
+                />
+              </Link>
             </div>
             <div className="hidden md:block ml-4">
               <div className="flex items-baseline space-x-4">
