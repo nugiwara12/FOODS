@@ -34,7 +34,7 @@ const BackTop = () => {
     <div>
       {showScrollButton && (
         <button
-          className="fixed bottom-3 right-3 z-50 animate-bounce text-black p-3 rounded-full bg-yellow-500 shadow-xl"
+          className="fixed bottom-3 right-3 z-50 animate-bounce text-black p-3 rounded-full bg-yellow-600 shadow-xl"
           onClick={scrollToTop}
         >
           <svg

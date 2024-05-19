@@ -5,7 +5,7 @@ import { RiNumber1, RiNumber2, RiNumber3, RiNumber4 } from "react-icons/ri";
 
 const AboutUs = () => {
   return (
-    <div className="flex justify-center mt-0 mb-0 md:mb-80 md:mt-24">
+    <div className="flex justify-center mt-0 mb-0 md:mb-20 md:mt-24">
       <div className="container mx-auto px-4 md:px-0 py-2 rounded-lg transition-all">
         <div className="flex flex-col md:flex-row items-center justify-center md:justify-between">
           <div className="mb-8 md:mb-0 ">

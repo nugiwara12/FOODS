@@ -80,7 +80,7 @@ const Navbar = () => {
               <input
                 type="search"
                 id="default-search"
-                className="block w-full pl-10 pr-3 py-2 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 focus:ring-1 focus:ring-offset-2 focus:ring-offset-gray-800"
+                className="block w-full pl-10 pr-3 py-2 border rounded-lg bg-gray-50 border-yellow-600"
                 placeholder="Search"
                 required
               />
