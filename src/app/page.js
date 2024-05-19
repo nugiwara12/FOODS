@@ -3,6 +3,7 @@ import Navbar from "../../components/Navbar/Navbar";
 import HomePage from "../app/home/HomePage";
 import BackTop from "../../components/BacktoTop/BacktoTop";
 import Carousel from "./home/CarouselPage";
+import Footer from "../../components/Footer/Footer";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Carousel />
 
       <BackTop />
+      <Footer />
     </main>
   );
 }
