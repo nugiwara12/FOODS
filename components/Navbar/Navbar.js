@@ -59,7 +59,7 @@ const Navbar = () => {
                   About
                 </a>
                 <a
-                  href="#"
+                  href="/service"
                   onClick={() => handleLinkClick("#")}
                   className={linkClassNames("#")}
                 >
