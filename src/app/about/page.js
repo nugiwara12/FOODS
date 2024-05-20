@@ -9,7 +9,9 @@ const page = () => {
       <Navbar />
     <header className="bg-black text-white py-6">
         <div className="container mx-auto px-6">
-          <h1 className="text-3xl font-bold">About <span className="font-bold text-yellow-700">FoodHub</span></h1>
+          <h1 className="text-3xl font-bold">About
+            <span className="font-bold text-yellow-700">FoodHub</span>
+            </h1>
           <p className="mt-2">Your Gateway to Culinary Delights</p>
         </div>
       </header>
@@ -53,7 +55,7 @@ const page = () => {
                 alt="Julian Anunciacion"
                 className="w-48 h-48 object-cover rounded-full mx-auto"
               />
-              <h3 className="text-center text-xl font-semibold mt-10">Emily Johnson</h3>
+              <h3 className="text-center text-xl font-semibold mt-10">Julian Anunciacion</h3>
               <p className="text-center font-bold">Marketing Director</p>
             </div>
 
