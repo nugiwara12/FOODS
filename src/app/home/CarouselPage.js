@@ -47,7 +47,7 @@ const slides = [
       "“UI design involves creating a user-friendly, intuitive, and consistent product interface, collaborating with graphic designers, front-end developers, and stakeholders to meet user needs and business objectives.”",
   },
   {
-    image: "/images/users/jc.jpg",
+    image: "/images/users/edgar.jpg",
     name: "EDGAR TABUNDA",
     position: "Web Development",
     quotes:
