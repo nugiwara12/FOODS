@@ -60,15 +60,15 @@ const Navbar = () => {
                 </a>
                 <a
                   href="/service"
-                  onClick={() => handleLinkClick("#")}
-                  className={linkClassNames("#")}
+                  onClick={() => handleLinkClick("/service")}
+                  className={linkClassNames("/service")}
                 >
                   Services
                 </a>
                 <a
-                  href="#"
-                  onClick={() => handleLinkClick("#")}
-                  className={linkClassNames("#")}
+                  href="/contact"
+                  onClick={() => handleLinkClick("/contact")}
+                  className={linkClassNames("/contact")}
                 >
                   Contact
                 </a>
