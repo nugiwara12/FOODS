@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation";
 import Navbar from '../../../components/Navbar/Navbar';
 import Footer from '../../../components/Footer/Footer';
 import BackTop from '../../../components/BacktoTop/BacktoTop';
-import PageOffer from "@/app/service/pageOffer";
+import PageOffer from "@/app/service/PageOffer";
 
 
 const Service = () => {
